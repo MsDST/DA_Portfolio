@@ -1,44 +1,57 @@
-# DA_Portfolio
-# Marketing Campaign Performance Analysis (SQL + Power BI)
 
-Welcome to my marketing analytics portfolio project, where I analyze the performance of a digital marketing campaign dataset using **MySQL** for data wrangling and KPI calculation, and **Power BI** for interactive visualizations. This project demonstrates how data can drive smart marketing decisions and improve ROI.
+# Number Narratives - Data Analysis Portfolio
 
----
+Welcome to my data analysis portfolio! This repository contains my work showcasing data analysis projects, from raw data wrangling to building interactive visualizations. The goal of this portfolio is to demonstrate my skills in solving complex business problems using data and insights.
 
-## Project Objectives
+## About Me
 
-- Measure overall marketing performance.
-- Identify the most effective **campaign types** and **channels**.
-- Assess **customer engagement behavior**.
-- Conduct **A/B testing** on campaign strategies.
-- Recommend ways to optimize **conversion rate** and **ad spend**.
+I am a passionate data analyst with a focus on using data to drive decision-making. I specialize in tools such as **Excel**, **Power BI**, **Tableau**, and **MySQL** to analyze and visualize data. My areas of expertise include:
 
----
+- **Data Wrangling & Cleaning**: Transforming raw data into usable formats.
+- **Data Visualization**: Creating insightful dashboards and reports.
+- **Business Intelligence**: Using BI tools to automate reports and track KPIs.
+- **Database Management**: Working with SQL-based databases for data analysis.
 
-## Tools & Technologies
+### Tools & Technologies
+- **Data Visualization**: Power BI, Tableau, Excel
+- **Databases**: MySQL
+- **Data Analysis**: Excel functions, Power BI DAX, Tableau calculations
 
-- **Database**: MySQL Workbench
-- **Visualization**: Power BI
-- **Languages**: SQL, DAX
-- **Dataset**: [Digital Marketing Campaign Dataset](#) *Shared by Rabie El Kharoua(https://www.kaggle.com/datasets/rabieelkharoua/predict-conversion-in-digital-marketing-dataset)*
+## Projects in This Portfolio
 
----
+This repository contains projects across various industries.
 
-## Step-by-Step Breakdown
+1. **Finance**
 
-### 1.  Data Wrangling (SQL)
-
-- Checked for missing values and duplicates.
-- Cleaned the dataset for analysis.
-- Result: Dataset was clean with no missing values or duplicates
+2. **Sales**
   
-```SQL-Based 
--- Check for missing values
-SELECT * FROM digital_marketing_campaign_dataset
-WHERE Age IS NULL OR Gender IS NULL OR Income IS NULL OR AdSpend IS NULL;
+3. **Marketing**
+   
+4. **Supply-Chain & Logistics**
 
--- Check for duplicates
-SELECT CustomerID, COUNT(*) 
-FROM digital_marketing_campaign_dataset 
-GROUP BY CustomerID 
-HAVING COUNT(*) > 1;
+## Methodology
+
+In each of my projects, I follow a consistent methodology to ensure comprehensive analysis:
+
+1. **Data Collection**: Sourcing reliable datasets (often from Kaggle or similar platforms).
+2. **Data Wrangling**: Cleaning and transforming raw data into a format suitable for analysis.
+3. **Exploratory Data Analysis (EDA)**: Visualizing data to uncover trends, patterns, and outliers.
+4. **Modeling & Analysis**: Applying business logic and calculations to derive insights.
+5. **Reporting**: Presenting findings in an accessible format through dashboards, reports, or blog-style write-ups.
+
+## How to Use This Repository
+
+Feel free to explore my projects:
+
+- Visit the individual project folders for detailed reports and analysis workbooks.
+- View the datasets, code, and visualizations in each folder.
+- If you'd like to run the analysis locally, the instructions and any dependencies are provided within the respective project folder.
+
+### Setting Up Locally
+
+To clone this repository and explore the projects:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/Data-Analysis-Portfolio.git
+
