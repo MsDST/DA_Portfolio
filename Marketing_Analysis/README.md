@@ -19,7 +19,7 @@ Welcome to my marketing analytics portfolio project, where I analyze the perform
 - **Database**: MySQL Workbench
 - **Visualization**: Power BI
 - **Languages**: SQL, DAX
-- **Dataset**: [Digital Marketing Campaign Dataset](#) *(Insert link to dataset if public)*
+- **Dataset**: [Digital Marketing Campaign Dataset](#) *(https://www.kaggle.com/datasets/rabieelkharoua/predict-conversion-in-digital-marketing-dataset)*
 
 ---
 
