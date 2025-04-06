@@ -10,11 +10,13 @@ This project presents a detailed analysis of retail sales performance using tran
 
 - **Objective**: Identify top-performing products, cities, branches, and customer segments.
 - **Scope**: Analyze revenue, profit margins, payment methods, and sales trends over time.
-- **Data Source**: Transactional sales data extracted from a MySQL database and exported as individual tables.
+- **Data Source**: Kaggle:https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales
+
 
 ---
 
 ##  2. Data Extraction & Transformation
+Transactional sales data extracted from a MySQL database and exported as individual tables to Excel.
 
 ### 2.1 Key Fields
 - Invoice ID, Branch, City, Customer Type, Gender, Product Line
